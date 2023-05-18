@@ -1,0 +1,75 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for the header section */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Define styles for the navigation menu */
+  nav {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  /* Define styles for the main content section */
+  main {
+    padding: 20px;
+  }
+  
+  /* Define styles for the section headings */
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Define styles for the paragraph text */
+  p {
+    margin-bottom: 10px;
+  }
+  
+  /* Define styles for the unordered lists */
+  ul {
+    list-style: disc;
+    margin-bottom: 10px;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  /* Define styles for the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
